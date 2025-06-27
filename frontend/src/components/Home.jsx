@@ -270,7 +270,7 @@ function Home() {
                       <FaInstagram className="text-lg text-gray-300 group-hover:text-white" />
                     </div>
                   </a>
-                  <a href="#" className="group">
+                  <a href="https://x.com/HarshAdhik16222?t=xKNzHLKU6ZBKzxNiwvrOzw&s=09" className="group">
                     <div className="bg-gray-800 p-3 rounded-full group-hover:bg-blue-400 transition-all duration-300 transform group-hover:scale-110">
                       <FaTwitter className="text-lg text-gray-300 group-hover:text-white" />
                     </div>
