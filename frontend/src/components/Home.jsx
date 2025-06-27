@@ -260,12 +260,12 @@ function Home() {
 
                 {/* Social Links */}
                 <div className="flex space-x-4">
-                  <a href="#" className="group">
+                  <a href="https://www.facebook.com/share/1Bnc7Ju5do/" className="group">
                     <div className="bg-gray-800 p-3 rounded-full group-hover:bg-blue-600 transition-all duration-300 transform group-hover:scale-110">
                       <FaFacebook className="text-lg text-gray-300 group-hover:text-white" />
                     </div>
                   </a>
-                  <a href="#" className="group">
+                  <a href="https://www.instagram.com/harsh_adhikari010?igsh=MWprbGZiNWRscnZreA==" className="group">
                     <div className="bg-gray-800 p-3 rounded-full group-hover:bg-pink-600 transition-all duration-300 transform group-hover:scale-110">
                       <FaInstagram className="text-lg text-gray-300 group-hover:text-white" />
                     </div>
