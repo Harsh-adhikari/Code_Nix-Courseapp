@@ -320,25 +320,25 @@ function Home() {
                 </h3>
                 <ul className="space-y-3">
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-black transition-colors duration-200 flex items-center group">
+                    <a href="/courses" className="text-gray-400 hover:text-black transition-colors duration-200 flex items-center group">
                       <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
                       Web Development
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-black transition-colors duration-200 flex items-center group">
+                    <a href="/courses" className="text-gray-400 hover:text-black transition-colors duration-200 flex items-center group">
                       <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
                       Mobile Development
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-black transition-colors duration-200 flex items-center group">
+                    <a href="/courses" className="text-gray-400 hover:text-black transition-colors duration-200 flex items-center group">
                       <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
                       Data Science
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-black transition-colors duration-200 flex items-center group">
+                    <a href="/courses" className="text-gray-400 hover:text-black transition-colors duration-200 flex items-center group">
                       <span className="w-1.5 h-1.5 bg-cyan-400 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
                       DevOps
                     </a>
@@ -354,25 +354,25 @@ function Home() {
                 </h3>
                 <ul className="space-y-3">
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-black transition-colors duration-200 flex items-center group">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfM6ymbHVXpW5kaSV1-Z6kA-BO834XmxHrIgTmpN0GxENltcw/viewform?usp=sharing&ouid=115713486112744697191" className="text-gray-400 hover:text-black transition-colors duration-200 flex items-center group">
                       <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
                       Help Center
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-black transition-colors duration-200 flex items-center group">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfM6ymbHVXpW5kaSV1-Z6kA-BO834XmxHrIgTmpN0GxENltcw/viewform?usp=sharing&ouid=115713486112744697191" className="text-gray-400 hover:text-black transition-colors duration-200 flex items-center group">
                       <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
                       Privacy Policy
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-black transition-colors duration-200 flex items-center group">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfM6ymbHVXpW5kaSV1-Z6kA-BO834XmxHrIgTmpN0GxENltcw/viewform?usp=sharing&ouid=115713486112744697191" className="text-gray-400 hover:text-black transition-colors duration-200 flex items-center group">
                       <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
                       Terms of Service
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="text-gray-400 hover:text-black transition-colors duration-200 flex items-center group">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfM6ymbHVXpW5kaSV1-Z6kA-BO834XmxHrIgTmpN0GxENltcw/viewform?usp=sharing&ouid=115713486112744697191" className="text-gray-400 hover:text-black transition-colors duration-200 flex items-center group">
                       <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></span>
                       Refund Policy
                     </a>
@@ -388,9 +388,9 @@ function Home() {
                   © 2025 <span className="text-violet-400 font-semibold">CodeNix</span>. All rights reserved. Built with ❤️ for developers.
                 </div>
                 <div className="flex items-center space-x-6 text-sm">
-                  <a href="#" className="text-gray-400 hover:text-black transition-colors">Support</a>
-                  <a href="#" className="text-gray-400 hover:text-black transition-colors">Contact</a>
-                  <a href="#" className="text-gray-400 hover:text-black transition-colors">Careers</a>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfM6ymbHVXpW5kaSV1-Z6kA-BO834XmxHrIgTmpN0GxENltcw/viewform?usp=sharing&ouid=115713486112744697191" className="text-gray-400 hover:text-black transition-colors">Support</a>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfM6ymbHVXpW5kaSV1-Z6kA-BO834XmxHrIgTmpN0GxENltcw/viewform?usp=sharing&ouid=115713486112744697191" className="text-gray-400 hover:text-black transition-colors">Contact</a>
+                  <a href="/courses" className="text-gray-400 hover:text-black transition-colors">Careers</a>
                 </div>
               </div>
             </div>
