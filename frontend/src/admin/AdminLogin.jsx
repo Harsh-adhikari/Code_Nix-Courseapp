@@ -29,8 +29,6 @@ function AdminLogin() {
         }
       );
       console.log("Admin Login successful: ", response.data);
-      navigate("/admin/dashboard");
-      toast.success(response.data.message);
       
       // ✅ FIXED: Store the complete user object with token
       localStorage.setItem("admin", JSON.stringify({
@@ -38,7 +36,12 @@ function AdminLogin() {
         user: response.data.user
       }));
       
+      // Show success message
+      toast.success(response.data.message);
+      
+      // Navigate to dashboard (only once)
       navigate("/admin/dashboard");
+      
     } catch (error) {
       if (error.response) {
         setErrorMessage(error.response.data.errors || "Login failed!!!");
