@@ -29,19 +29,19 @@ function AdminLogin() {
         }
       );
       console.log("Admin Login successful: ", response.data);
-      
+
       // ✅ FIXED: Store the complete user object with token
       localStorage.setItem("admin", JSON.stringify({
         token: response.data.token,
         user: response.data.user
       }));
-      
+
       // Show success message
       toast.success(response.data.message);
-      
+
       // Navigate to dashboard (only once)
       navigate("/admin/dashboard");
-      
+
     } catch (error) {
       if (error.response) {
         setErrorMessage(error.response.data.errors || "Login failed!!!");
@@ -57,19 +57,22 @@ function AdminLogin() {
           <div className="flex items-center space-x-2">
             <img src={logo} alt="Logo" className="w-10 h-10 rounded-full" />
             <Link to={"/"} className="text-xl font-bold text-orange-500">
-            <h1 className="text-2xl font-bold">
-              <span className="text-violet-400">Code</span>
-              <span className="text-white">Nix</span>
-            </h1>
+              <h1 className="text-2xl font-bold">
+                <span className="text-violet-400">Code</span>
+                <span className="text-white">Nix</span>
+              </h1>
             </Link>
           </div>
           <div className="flex items-center space-x-4">
-            <Link
-              // to={"/admin/signup"}
+
+            {/* You can uncomment the sign up url when you have to enable and access the sign up page it's hide for security.*/}
+            {/* <Link
+              to={"/admin/signup"}
               className="bg-transparent border border-gray-500 p-1 text-sm md:text-md md:py-2 md:px-4 rounded-md"
             >
               Signup
-            </Link>
+            </Link> */}
+
             <Link
               to={"/courses"}
               className="bg-violet-600 p-1 text-sm md:text-md md:py-2 md:px-4 rounded-md"
@@ -81,8 +84,8 @@ function AdminLogin() {
 
         {/* Login Form */}
         <div className="bg-gray-900 p-8 rounded-lg shadow-lg w-[500px] m-8 md:m-0 mt-20">
-        <h2 className="text-2xl font-bold mb-4 text-center">
-             Admin Login <span className="text-violet-400">Code Nix</span> 
+          <h2 className="text-2xl font-bold mb-4 text-center">
+            Admin Login <span className="text-violet-400">Code Nix</span>
           </h2>
           <p className="text-center text-red-600 mb-6">
             Log in to access admin dashboard!
