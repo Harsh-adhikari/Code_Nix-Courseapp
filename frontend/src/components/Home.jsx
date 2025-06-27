@@ -160,12 +160,7 @@ function Home() {
                 >
                   Logout
                 </button>
-                <Link
-                  to={"/admin/login"}
-                  className="bg-violet-600 text-white py-3 px-4 rounded hover:bg-black transition duration-300"
-                >
-                  Join now
-                </Link>
+                
               </>
             ) : (
               <>
